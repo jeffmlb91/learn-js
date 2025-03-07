@@ -17,7 +17,7 @@
 //if password is greater or equal to 8 print "Password is too long" & "Password should be 8 characters"
 // If all fails print" provide a password.
 
-let myPassword;
+let myPassword = 9;
 if ( myPassword === 8 ) {
     console.log("Welcome")
 } else if ( myPassword <= 8 ) {
