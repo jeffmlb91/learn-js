@@ -106,3 +106,24 @@ console.log(fullActorName)
 console.log(uppercase)
 console.log(message)
 
+
+//Conversting a string to a number using 3 ways
+//1. using the parseInt() method
+//2. using the = + method
+//3. using the Number(constructor)
+
+let setNumber = "100";
+setNumber = parseInt(setNumber)
+
+console.log(setNumber);
+console.log(typeof setNumber)
+
+let secondNumber = "200";
+secondNumber = +secondNumber
+console.log(secondNumber)
+console.log(typeof secondNumber)
+
+let thirdNumber = "300";
+thirdNumber = Number(thirdNumber)
+console.log(thirdNumber)
+console.log(typeof thirdNumber)
