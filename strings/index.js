@@ -73,3 +73,36 @@ console.log(joinedString)
 
 console.log(numberOneCar.includes("z")) //returns a b0olean false
 console.log(numberTwoCar.includes("F")) // returns a boolean true
+
+//Working with Trim
+//Removes empty spaces in a string
+
+let theFirstStatement = "        This is a place where there are people"
+let theSecondStatement = "This is a place where there are people"
+console.log("first Statement without trim:",theFirstStatement)
+console.log("Second Statement without trim", theSecondStatement)
+console.log("Trimmed value: ",theFirstStatement.trim()) 
+console.log("Trimmed value: ",theSecondStatement.trim()) 
+
+
+/**
+ * EXCERCISE
+1. Create variable name (favActorFirstName) & store your fav Actor name.
+2. Create variable name (favActorLastName) & store the last name of (FA).
+3. Create variable name (fullNamel) & concatenate (favActorFirstName, favActorLastName)
+4. Create variable name (uppercase) & CAPITALIZE your fav actor name.
+5. Create a variable name (message) & store My favorite Actor Is (favActorName) & say something about your fav actor' name should be in UPPERCASE.
+6. Now append this message to the (message variable) 'his best show is Silicon Valley'
+7. Now log your message.
+ */
+
+let favActorFirstName = "Chirs";
+let favActorLastName = "Tuccker";
+// let fullActorName = `${favActorFirstName} ${favActorLastName}`
+let fullActorName = favActorFirstName + " " + favActorLastName
+let uppercase = fullActorName.toUpperCase()
+let message = `My favorite Actor Is ${fullActorName}`
+console.log(fullActorName)
+console.log(uppercase)
+console.log(message)
+
