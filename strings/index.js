@@ -107,6 +107,7 @@ console.log(uppercase)
 console.log(message)
 
 
+//Type conversion 
 //Conversting a string to a number using 3 ways
 //1. using the parseInt() method
 //2. using the = + method
@@ -127,3 +128,23 @@ let thirdNumber = "300";
 thirdNumber = Number(thirdNumber)
 console.log(thirdNumber)
 console.log(typeof thirdNumber)
+
+//Conveting a a string to a decimal
+
+let stringValue = "71.789"
+let converstedValue = parseFloat(stringValue);
+console.log(converstedValue)
+console.log(typeof converstedValue)
+
+//Converting number to string 
+// 1. use the toString() method - 
+// 2. use the constructor String()
+let anotherNumber = 400;
+let newValue = anotherNumber.toString();
+console.log(newValue)
+console.log(typeof newValue) //String 
+
+let anotherNewNumber = 500;
+let anotherNewValue = String(anotherNewNumber)
+console.log(anotherNewValue)
+console.log(typeof anotherNewValue)  //String 
