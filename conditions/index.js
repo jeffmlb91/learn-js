@@ -50,3 +50,27 @@ if (newWord.includes("C")) {
     console.log(false)
 }
 
+let bankBalance = 0;
+
+function addMoney(amount){
+    bankBalance = bankBalance+ amount
+    if (addMoney) {
+        console.log(amount, " has been added in your bank")
+    } else {
+        console.log("amount has been withdraw")
+    }
+}
+
+addMoney(2500)
+console.log(bankBalance)
+
+function withDrawMoney(amount){
+    bankBalance = bankBalance - amount;
+    if(withDrawMoney) {
+        console.log(amount, "has been withdraw from your bank")
+    }
+}
+
+withDrawMoney(500)
+console.log(bankBalance)
+
