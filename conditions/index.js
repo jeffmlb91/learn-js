@@ -28,3 +28,12 @@ if ( myPassword === 8 ) {
     console.log("Please provide a password")
 };
 
+
+let myArray = ["Banana", "apple", "Mangoes", "Oranges"]
+
+if (myArray.includes("Mangoes")) {
+    console.log("One of the fruits in the bucket list is mangoes")
+} else {
+    console.log("Mangoes are not included")
+}
+
