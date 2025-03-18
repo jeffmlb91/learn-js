@@ -37,3 +37,16 @@ if (myArray.includes("Mangoes")) {
     console.log("Mangoes are not included")
 }
 
+//et myCarArray = ["Honda", "Acura", "Toyota", "Lexus"]
+
+let courseIncluded = "Cinematic";
+newWord = courseIncluded.split("").join("-");
+console.log(courseIncluded)
+console.log(newWord);
+
+if (newWord.includes("C")) {
+    console.log(true)
+} else {
+    console.log(false)
+}
+
